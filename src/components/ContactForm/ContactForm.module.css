@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10px 20px;
+    border: 3px solid grey;
+    box-shadow: 1px 4px 3px 1px;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: azure;
+}
+
+.red {
+    color: rgb(201, 24, 24);
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(73, 70, 70);
+}

@@ -1,0 +1,22 @@
+.item {
+    min-width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(128 128 128 / 65%);
+    border: 2px solid grey;
+    box-shadow: 1px 2px 2px 1px;
+}
+
+.btn {
+    display: flex;
+    padding: 5px 10px;
+    margin-left: auto;
+    font-size: 18px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(73, 70, 70);
+}

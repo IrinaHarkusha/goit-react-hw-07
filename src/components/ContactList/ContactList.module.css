@@ -1,0 +1,12 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+.text {
+    font-size: 36px;
+    text-align: center;
+    color: grey;
+}
