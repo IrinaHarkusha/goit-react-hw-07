@@ -13,7 +13,7 @@ function Contact({ contact }) {
       <li className={s.item}>
         <h3> <MdAccountCircle/> {name}</h3>
         <p> <FaPhone/> {number}</p>
-        <button onClick={() => dispatch(deleteContactThunk({id}))} className={s.btn}>Delete</button>
+        <button onClick={() => dispatch(deleteContactThunk(id))} className={s.btn}>Delete</button>
       </li>
   )
 }
