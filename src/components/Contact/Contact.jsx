@@ -6,9 +6,9 @@ import { deleteContactThunk } from "../../redux/contactsOps"
 
 
 function Contact({ contact }) {
+  const dispatch = useDispatch()
   const { id, name, number } = contact
   
-  const dispatch = useDispatch()
   return (
       <li className={s.item}>
         <h3> <MdAccountCircle/> {name}</h3>
